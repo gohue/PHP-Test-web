@@ -10,7 +10,7 @@ $to = "youremailaddress@gmail.com";
 $subject = "Mail From codeconia";
 $txt ="Name = ". $name . "\r\n Email = " . $email . "\r\n Message =" . $message ."\r\n Mobile number =". $number;
 
-$headers = "From: noreply@codeconia.com";
+$headers = "From: noreply@https://n0namr3.github.io/PHP-Test-web/";
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
 }
